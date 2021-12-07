@@ -11,8 +11,7 @@ def inicia():
     primeiroNumero = int(input())
     segundoNumero = int(input())
     resultado = calculaMDC(primeiroNumero, segundoNumero)
-    print("Resultado: ", resultado)
+    print("Resultado MDC: ", resultado)
 
-8
 if __name__ == "__main__":
     inicia()
