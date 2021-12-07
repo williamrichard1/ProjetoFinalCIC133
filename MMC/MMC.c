@@ -20,6 +20,6 @@ int main(){
     scanf("%d", &segundoNum);
 
     int resultado = calculaMmc(primeiroNum,segundoNum);
-    printf("\n\nO MMC de %d e %d eh: %d\n", primeiroNum, segundoNum,resultado );
+    printf("\n\nO MMC de %d e %d eh: %d\n", primeiroNum, segundoNum, resultado );
     return 0;
 }

@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int calculaMdc(int u, int v) {
   if (u < 0) u = -u;
   if (v < 0) v = -v;
