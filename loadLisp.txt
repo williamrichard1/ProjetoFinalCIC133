@@ -1,0 +1,5 @@
+(load "C:/Users/Will/Desktop/TrabParadigma/8-queens.lisp")
+
+(load "C:/Users/Procon/Desktop/Will/Facul/TrabParadigma/8 rainhas/8-queens.lisp")
+
+(load "C:/Users/Procon/Desktop/Will/Facul/TrabParadigma/MDC/MDC.lisp")
