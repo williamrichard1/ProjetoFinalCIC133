@@ -3,3 +3,7 @@
 (load "C:/Users/Procon/Desktop/Will/Facul/TrabParadigma/8 rainhas/8-queens.lisp")
 
 (load "C:/Users/Procon/Desktop/Will/Facul/TrabParadigma/MDC/MDC.lisp")
+
+(load "D:/Backup/Materias 2021.2/Paradigmas/ProjetoFinalCIC133/MMC/MMC.lisp")
+
+D:/Backup/Materias 2021.2/Paradigmas/ProjetoFinalCIC133/MMC/MMC.lisp

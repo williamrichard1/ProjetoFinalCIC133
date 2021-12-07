@@ -1,16 +1,20 @@
 #include<stdio.h>
-int MDC(int u, int v) {
+int calculaMdc(int u, int v) {
   if (u < 0) u = -u;
   if (v < 0) v = -v;
   if (v) while ((u %= v) && (v %= u));
   return (u + v);
 }
 
-void main(){
-int primeiroNum, segundoNum;
+int main(){
+    int primeiroNum, segundoNum;
 
-scanf("%d", &primeiroNum);
-scanf("%d", &segundoNum);
-int resultado = MDC(primeiroNum, segundoNum);
-printf("%d", resultado);
+    printf("Digite o primeiro numero: ");
+    scanf("%d", &primeiroNum);
+    printf("Digite o segundo numero: ");
+    scanf("%d", &segundoNum);
+
+    int resultado = calculaMdc(primeiroNum, segundoNum);
+    printf("\n\nO MDC de %d e %d eh: %d\n", primeiroNum, segundoNum,resultado );
+    return 0;
 }
